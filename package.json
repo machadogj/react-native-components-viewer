@@ -1,0 +1,36 @@
+{
+  "name": "react-native-components-viewer",
+  "version": "1.0.0",
+  "description": "Viewer for React Native components. Useful for visual testing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/machadogj/react-native-components-viewer.git"
+  },
+  "keywords": [
+    "react",
+    "react",
+    "native",
+    "javascript",
+    "ios",
+    "android",
+    "tests"
+  ],
+  "author": "Gustavo Machado <machadogj@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/machadogj/react-native-components-viewer/issues"
+  },
+  "homepage": "https://github.com/machadogj/react-native-components-viewer",
+  "dependencies": {
+    "react-native-layout-tester": "^1.0.5"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.0",
+    "eslint": "^3.0.1",
+    "eslint-plugin-react": "^5.2.2"
+  }
+}
