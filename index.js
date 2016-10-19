@@ -13,7 +13,7 @@ export default class ComponentsViewer extends Component {
 
   static propTypes = {
     // components
-    layoutsConfig: LayoutTester.PropTypes,
+    layoutTesterConfig: PropTypes.shape(LayoutTester.propTypes),
     specs: PropTypes.arrayOf(PropTypes.shape({
       type: PropTypes.func.isRequired,
       props: PropTypes.arrayOf(PropTypes.object),
@@ -80,7 +80,7 @@ export default class ComponentsViewer extends Component {
       return (
         <View style={ styles.body }>
           <Title>{ ComponentType.name }</Title>
-          <LayoutTester { ...this.props.layoutsConfig }>
+          <LayoutTester { ...this.props.layoutTesterConfig }>
             <ComponentType { ...props } />
           </LayoutTester>
         </View>
