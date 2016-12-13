@@ -1,6 +1,6 @@
 {
   "name": "react-native-components-viewer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Viewer for React Native components. Useful for visual testing.",
   "main": "index.js",
   "scripts": {
