@@ -1,4 +1,4 @@
-#react-native-components-viewer
+# react-native-components-viewer
 
 Use an iPad to test your components layout in different screen sizes. It uses
 the [react-native-layout-tester](https://github.com/machadogj/react-native-layout-tester).
