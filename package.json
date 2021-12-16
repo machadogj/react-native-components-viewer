@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/machadogj/react-native-components-viewer",
   "dependencies": {
+    "prop-types": "^15.7.2",
     "react-native-layout-tester": "^1.0.5"
   },
   "devDependencies": {
